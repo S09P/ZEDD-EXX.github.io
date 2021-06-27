@@ -1,0 +1,70 @@
+html{
+  font-size: 10px;
+}
+body{
+  background-color: thistle;
+}
+.heading{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  left:32%;
+  top:20%;
+  font-size: 7rem;
+}
+  .back{
+     background: url("new2.jpg") no-repeat;
+    position:relative;
+  background-position: center;
+    background-size: cover;
+    height:60rem;
+
+
+}
+/* .back h1{
+  display: inline-block;
+  text-align: center;
+  margin-top: 22%;
+
+} */
+.name{
+    text-align: center;
+  position: relativ;
+    color:black;
+   top:50%;
+}
+.name button{
+  width: 40%;
+background-color: #00bab1;
+padding: .8rem;
+border: none;
+border-radius: .6rem;
+margin-top: 1rem;
+}
+@media (max-width:998px) {
+  html{
+    font-size: 55%;
+  }
+}
+@media (max-width:768px) {
+  html{
+    font-size: 45%;
+  }
+}
+.images{
+  margin-top: 1%;
+  float: left;
+  width: 40%;
+  margin-left:2rem;
+}
+.images2{
+  margin-top: 1%;
+  float: right;
+  width: 40%;
+  margin-left:5rem;
+}
+.owners{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
